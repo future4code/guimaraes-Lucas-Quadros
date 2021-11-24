@@ -25,16 +25,16 @@
     
     //(a)
     const pessoa = {
-        nome: "João", 
-        apelidos: ["Joe","Jonas","Jojo"]
+      nome: "João", 
+      apelidos: ["Joe","Jonas","Jojo"]
+      }
+      function meuApelido(pessoa) {
+           return `Meu nome é ${pessoa.nome} , mas pode me chamar de ${pessoa.apelidos[0]}, ${pessoa.apelidos[1]} ou ${pessoa.apelidos[2]}`
+          
         }
-        function meuapelido(frase) {
-             frase = `Meu nome é ${frase.nome} , mas pode me chamar de ${frase.apelidos}`
-            return frase
-          }
 
-                 
-          console.log(meuapelido(pessoa))
+               
+        console.log(meuApelido(pessoa))
         
     //(2)
 
